@@ -1,0 +1,35 @@
+@use "../../App.scss" as *;
+
+.Navbar {
+  background-color: $hazel-sky-blue;
+
+  &-container {
+    list-style: none;
+    border: 1px solid #000;
+    height: 100%;
+    padding: 0;
+  }
+
+  &-item {
+    padding: 1rem 0.5rem;
+    border-bottom: 1px solid #000;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &-link {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #fff;
+
+    &:hover {
+      font-size: 1.11rem;
+    }
+  }
+
+  .bi {
+    color: #fff;
+  }
+}

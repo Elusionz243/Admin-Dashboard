@@ -1,0 +1,19 @@
+$background-color: rgb(120, 120, 120);
+$hazel-sky-brown: #A97C50;
+$hazel-sky-blue: #13A89E;
+$hazel-sky-hazel: #FBCA17;
+
+.App {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+
+    &-header {
+        display: flex;
+        justify-content: space-between;
+        background-color: $hazel-sky-blue;
+        color: rgb(240, 240, 240);
+        padding: 1rem;
+        border-bottom: 1px solid #000;
+    }
+}
